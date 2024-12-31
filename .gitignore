@@ -1,0 +1,10 @@
+node_modules
+.vscode
+.cpcache
+.shadow-cljs
+.shadow-cljs.edn
+.shadow-cljs.json
+.shadow-cljs.edn.lock
+.shadow-cljs.json.lock
+out
+public

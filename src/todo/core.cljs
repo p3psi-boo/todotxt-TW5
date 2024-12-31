@@ -82,9 +82,7 @@
 
 (def identifier
   (parser
-   (then
-    (choice ucase-letter lcase-letter)
-    (star (choice ucase-letter lcase-letter digit dash underscore)))
+   (plus (not-one-of [\+ \@ \: \space \tab \newline \( \)]))
    :using stringify))
 
 (def project-tag
